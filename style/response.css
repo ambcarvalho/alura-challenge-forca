@@ -1,0 +1,81 @@
+@media (max-width: 768px) /* AJUSTA A TELA À RESOLUÇÃO DE TABLET */ {
+    body {
+        overflow: scroll;
+    }
+    .container {
+        margin-top: 10px;
+        padding: auto;
+        margin: auto;
+        width: 100%;
+        border-radius: 1px solid;
+    }
+    
+    .letras{
+        width: 75vw;
+    }
+
+    textarea {
+        width: 100%;
+        margin: auto;
+        padding: auto;
+    }
+
+    .botao {
+        width: auto;
+        margin: auto;
+        padding: auto;
+    }
+
+    .direitos {
+        bottom: 0;
+    }
+}
+
+@media (max-width: 425px) /* AJUSTA A TELA À RESOLUÇÃO DE CELULAR */ {
+    .logo {
+        margin: 0;
+    }
+    .botoes {
+        width: auto;
+        height: 70px;
+        margin: auto;
+        padding: auto;
+    }
+
+    .letras {
+        display: flex;
+        flex-direction: column;
+    }
+
+    textarea {
+        width: 100%;
+        margin: auto;
+        padding: auto;
+    }
+
+    textarea::placeholder {
+        font-size: 26px;
+    }
+    
+    .letter {
+        width: 25px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        width: auto;
+        margin: auto;
+        padding: auto;
+    }
+
+    .botao {
+        width: auto;
+        margin: auto;
+        padding: auto;
+    }
+
+    textarea::placeholder {
+        font-size: 20px;
+    }
+}

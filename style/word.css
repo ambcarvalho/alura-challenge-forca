@@ -1,0 +1,90 @@
+.container{
+    position: fixed;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+textarea{
+    color:#0A3871;
+    font-size: 32px;
+    resize: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+textarea::placeholder{
+    color:#0A3871;
+}
+
+main p{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    opacity: 0.7;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.salvarComecar {
+    width: 45%;
+    height: 12%;
+    top: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+
+    font-size: 18px;
+    color: white;
+
+    background: #0A3871;
+    border-radius: 24px;
+
+    cursor: pointer;
+}
+
+.salvarComecar:hover {
+    transform: scale(105%);
+    transition: 100ms;
+}
+
+.cancelar {
+    width: 45%;
+    height: 12%;
+    top: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+
+    font-size: 18px;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    cursor: pointer;
+}
+
+.cancelar:hover {
+    transform: scale(105%);
+    transition: 100ms;
+}
+
+.direitos {
+    position: absolute;
+    opacity: 0.8;
+    width: 30%;
+    left: 42%;
+}
+
+.color{
+    background: #0A3871;
+    color:#fff
+}
+.color:active{
+    background: #062d5e;
+}

@@ -1,0 +1,69 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+.botao {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#play {
+    position: absolute;
+    width: 20%;
+    height: 12%;
+    top: 35%;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+
+    background: #0A3871;
+    border-radius: 24px;
+
+    cursor: pointer;
+}
+
+#play:hover {
+    transform: scale(105%);
+    transition: 100ms;
+}
+
+#word {
+    position: absolute;
+    width: 20%;
+    height: 12%;
+    top: 55%;
+
+    font-weight: bold;
+    font-size: 18px;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    cursor: pointer;
+}
+
+#word:hover {
+    transform: scale(105%);
+    transition: 100ms;
+}
+
+.direitos {
+    position: absolute;
+    opacity: 0.8;
+    width: 30%;
+    left: 42%;
+}
+
+.color{
+    background: #0A3871;
+    color:#fff
+}
+.color:active{
+    background: #062d5e;
+}

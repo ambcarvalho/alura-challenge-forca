@@ -1,0 +1,114 @@
+span{
+    text-transform: uppercase;
+}
+
+.letter{
+    text-align: center;
+    margin: 0.2em;
+    font-size: 3em;
+    height: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.letter::after{
+    content: "";
+    display: flex;
+    width: 2em;
+    height: 0.1em;
+    border-radius: 5px;
+    background-color: #0A3871;
+}
+
+.letraerrada {
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 5px solid;
+}
+
+.wrongletter{
+    font-size:1em;
+}
+
+.letras{
+    height: 75px;
+    align-items: flex-end;
+}
+
+.center{
+    margin-top: -10%;
+    margin-left: 25%;
+    width: 70%;
+}
+
+.letras {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding:1.5em 0em;
+    margin-top: 30px;
+}
+
+#canvas{
+    margin-top: -10%;
+}
+
+.botoes{
+    display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.novoJogo {
+    width: 40%;
+    height: 30%;
+    top: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+
+    font-size: 18px;
+    color: white;
+
+    background: #0A3871;
+    border-radius: 24px;
+
+    cursor: pointer;
+}
+
+.novoJogo:hover {
+    transform: scale(105%);
+    transition: 100ms;
+}
+
+#desistir {
+    width: 40%;
+    height: 30%;
+    top: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+
+    font-size: 18px;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    cursor: pointer;
+}
+
+#desistir:hover {
+    transform: scale(105%);
+    transition: 100ms;
+}
+
+.direitos {
+    position: absolute;
+    opacity: 0.8;
+    width: 30%;
+    left: 42%;
+}
