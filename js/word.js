@@ -10,7 +10,7 @@ function addPalavra() {
     if (validarPalavra(campoAdicionar.value)) {
         palavrasCriadas.push(campoAdicionar.value)
         localStorage.setItem("palavrasCriadas", JSON.stringify(palavrasCriadas))
-        window.location.assign("/game.html")
+        window.location.assign("game.html")
     } else {
         alert("Digite uma palavra válida")
     }
